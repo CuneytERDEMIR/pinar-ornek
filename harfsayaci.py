@@ -14,7 +14,7 @@ class HarfSayaci:
             if self.seslidir(harf):
                 self.sayac += 1
         return self.sayac        
-
+## aciklama
     def ekrana_goster(self):
         sesli_harf_sayisi = self.artir()
         mesaj = f"{self.kelime} kelimesinde {sesli_harf_sayisi} sesli harf vardir"
